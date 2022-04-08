@@ -2,6 +2,9 @@
 
 Eine Gruppenarbeit aus dem Studium
 
+# Demo Video
+[Flutter App](https://drive.google.com/file/d/11dZxvJqFTa91H4vcxngphB9f__QfvPAp/view)
+
 # Zuständigkeit
 - JavaFX-Client: Leonard 
 - Spring-Boot-Server: René Ruprecht
