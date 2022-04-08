@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Hello WebSocket</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/sockjs-client/1.5.2/sockjs.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/stomp.js/2.3.3/stomp.min.js"></script>
+    <script type="module" src="./js/app.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="wrapper">
+
+        <div class="top">
+            <div class="connectInfo">
+                <div class="connectionIdInput">
+                    <p id="currentId">Game ID:</p>
+                    <input type="text" id="gameid" name="gameid">
+                    <br>
+                    <p>Username:</p>
+                    <input type="text" id="username" name="username">
+                    <br>
+                    <br>
+                </div>
+            </div>
+            <div class="connectBtns">
+                <button class="btn btn-success" id="connectBtn">connect</button>
+
+                <button class="btn btn-warning" id="getGameInfoBtn">getGameInfo</button>
+                <button class="btn btn-danger" id="disconnectBtn">disconnect</button>
+                <button class="btn btn-danger" id="leaveBtn">leave</button>
+            </div>
+
+        </div>
+
+
+        <div class="sendAndQuestions">
+            <div class="card">
+
+                <div class="card-body answer-card">
+
+                    <p>Answer:</p>
+                    <input type="text" id="answer" name="answer">
+                    <br>
+                    <button class="btn btn-primary" id="sendPayloadBtn">send</button>
+                </div>
+            </div>
+
+
+            <div class="card">
+
+                <div class="card-header">
+                    <p id="question"></p>
+                </div>
+                <div class="card-body card-question">
+                    <p id="a1"></p>
+                    <p id="a2"></p>
+                    <p id="a3"></p>
+                    <p id="a4"></p>
+                </div>
+            </div>
+        </div>
+
+
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+    <br>
+    <br>
+    <br>
+
+
+    <br>
+    <br>
+    <br>
+    <p id="myUsername"></p>
+    <p id="myCurrentScore"></p>
+
+
+</body>
+
+</html>

@@ -1,0 +1,28 @@
+server:
+  error:
+    include-message: always
+    include-binding-errors: always
+
+
+application:
+  jwt:
+    secretKey: supersecuresupersecuresupersecursupersecuresupersecuresupersecureesupersecuresupersecure
+    tokenPrefix: "Bearer "
+    tokenExpirationAfterDays: 10
+
+
+spring:
+  datasource:
+    password: root
+    username: root
+    url: jdbc:mysql://database:3306/quiz
+    driverClassName: com.mysql.cj.jdbc.Driver
+  jpa:
+    hibernate:
+      ddl-auto: create-drop
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+        format_sql: true
+    show-sql: false
+

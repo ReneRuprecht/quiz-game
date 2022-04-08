@@ -1,0 +1,4 @@
+*.lock
+.idea
+paf-quiz.iml
+out

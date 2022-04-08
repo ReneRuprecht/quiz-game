@@ -1,0 +1,77 @@
+.wrapper{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.top{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.connectBtns{
+    display: flex;
+    margin-right: auto;
+    margin-left: auto;
+    
+}
+.connectInfo
+{
+    display: flex;
+    justify-content: center;
+    border: 3px solid green;
+    margin-right: auto;
+    margin-top: 20px;
+    width: 18rem;
+    margin-left: 10px;
+    margin-left: auto;
+}
+
+
+
+.connectBtns>button{
+    margin: 6px;
+    margin-top: 10px;
+}
+
+.card-header{
+    display: flex;
+    justify-content: center;
+}
+
+.card-question{
+    display: flex;
+        flex-direction: column;
+    justify-content: center;
+
+}
+
+.card{
+   
+    display: flex;
+    
+    border: 3px solid green;
+    margin: auto;
+    margin-top: 20px;
+    width: 18rem;
+ 
+}
+.answer-card{
+    display: flex;
+    flex-direction: column;
+    
+}
+.answer-card > button{
+    width: 100%;
+}
+
+.card-question{
+    margin: auto;
+
+}
+
+.sendAndQuestions{
+    display: flex;
+    flex-direction: row;
+}
